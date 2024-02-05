@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Vikash Kumar" />
+    <meta
+      name="description"
+      content="Profile card Component Challenge Solution of Frontend Mentor"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <article class="profile-card">
+          <div>
+            <h1 class="sr-only">Profile Card of Victor Crest</h1>
+            <figure class="profile-image">
+              <div class="background"></div>
+              <img
+                src="images/image-victor.jpg"
+                alt="Profile picture of Victor Crest"
+              />
+            </figure>
+          </div>
+
+          <div class="profile-content">
+            <header class="user-info">
+              <h2 class="user-name">
+                Victor Crest<span class="user-age">26</span>
+              </h2>
+              <span class="user-location">London</span>
+            </header>
+            <section class="profile-stats">
+              <h2 class="sr-only">Profile Statistics</h2>
+              <ul class="flex-flow">
+                <li class="grid-flow">
+                  <strong>80K</strong>
+                  <span class="stats-label">Followers</span>
+                </li>
+                <li class="grid-flow">
+                  <strong>803K</strong>
+                  <span class="stats-label">Likes</span>
+                </li>
+                <li class="grid-flow">
+                  <strong>1.4K</strong>
+                  <span class="stats-label">Photos</span>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
